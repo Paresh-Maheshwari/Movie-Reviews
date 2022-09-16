@@ -151,9 +151,11 @@ JAZZMIN_SETTINGS = {
 
     # Relative path to a favicon for your site, will default to site_logo if absent (ideally 32x32 px)
     "site_icon": None,
+      # Logo to use for your site, must be present in static files, used for brand on top left
+    "site_logo": "static\images\dbicon.png",
 
     # Welcome text on the login screen
-    "welcome_sign": "Welcome to the library",
+    "welcome_sign": "Welcome to Moview App",
 
     # Copyright on the footer
     "copyright": "Paresh Maheshwari",
