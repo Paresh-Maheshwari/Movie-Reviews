@@ -143,3 +143,22 @@ MEDIA_URL = '/media/'
 
 
 LOGIN_URL = 'loginaccount'
+JAZZMIN_SETTINGS = {
+    "site_title": "Movie Revie site Panel",
+    
+    # CSS classes that are applied to the logo above
+    "site_logo_classes": "img-circle",
+
+    # Relative path to a favicon for your site, will default to site_logo if absent (ideally 32x32 px)
+    "site_icon": None,
+
+    # Welcome text on the login screen
+    "welcome_sign": "Welcome to the library",
+
+    # Copyright on the footer
+    "copyright": "Paresh Maheshwari",
+
+    # The model admin to search from the search bar, search bar omitted if excluded
+    "search_model": "auth.User",
+
+}
