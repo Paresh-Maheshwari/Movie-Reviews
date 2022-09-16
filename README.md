@@ -38,3 +38,13 @@ pip install -r requirements.txt
 # make new superuser 
 python manage.py createsuperuse
 ```
+
+## Install Using Docker
+make sure you have already install  docker 
+```bash
+# First time run this command to build docker image
+docker-compose up --build
+
+# docker image run 
+docker-compose up
+```
